@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("bg.jpg");
+  }
+  
+  .stopwatch-container {
+    text-align: center;
+      }
+     
+  .stopwatch {
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color:rgb(80, 48, 48,0.8);
+    box-shadow: 2px 2px 5px white;
+    height: 110px;
+    }
+  
+  .lap-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  #display{
+-webkit-text-fill-color: white;
+
+  }
+ .stopwatch-container h1{
+    color:rgb(80, 48, 48,0.9);
+    text-shadow: 1px 1px 0.5px white;
+  }
